@@ -160,9 +160,10 @@
             color: #d4145a;
             margin: 50px 0 20px 0;
             font-family: 'Great Vibes', cursive;
-            font-size: 1.8rem;
+            font-size: 2.5rem;
             position: relative;
             padding: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
         .footer::before, .footer::after {
             content: '';
