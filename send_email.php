@@ -20,7 +20,7 @@ if ($_POST['option'] === 'sim') {
         
         // Destinatários
         $mail->setFrom('raribeirocarvalho14@gmail.com', 'Rodrigo');
-        $mail->addAddress('ribeirocarvalho2005@hotmail.com', 'Mariana');
+        $mail->addAddress('silvalmeidamariana@gmail.com', 'Mariana');
         
         // Conteúdo
         $mail->isHTML(true);

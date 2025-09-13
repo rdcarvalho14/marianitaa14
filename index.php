@@ -417,7 +417,7 @@ E visto o nosso amor de ganga</p>
         </div>
         <div class="question-section">
             <div class="question-text">
-                Baby boo, estás disponível para um belíssimo date amanhã, que prometo não arrepender? <span class="heart">&#10084;&#65039;</span>
+                Baby boo, estás disponível para um belíssimo date amanhã, que prometo não arrepender?
             </div>
             <div class="options-container">
                 <button class="option-button" onclick="selectOption(this, 'sim')">SIM MEU AMOR</button>
@@ -480,7 +480,7 @@ E visto o nosso amor de ganga</p>
             let message = '';
             switch(option) {
                 case 'sim':
-                    message = 'AMOTE AMOTE AMOTE AMOTE';
+                    message = 'AMOTE AMOTE, verifica o email';
                     // Envia o email
                     fetch('send_email.php', {
                         method: 'POST',
@@ -488,12 +488,6 @@ E visto o nosso amor de ganga</p>
                             'Content-Type': 'application/x-www-form-urlencoded',
                         },
                         body: 'option=sim'
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.success) {
-                            message += '\n\nE-mail de confirmação enviado! 💌';
-                        }
                     });
                     break;
                 case 'malandrices':
