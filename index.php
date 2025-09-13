@@ -321,7 +321,7 @@
     <div class="container">
         <div class="header">
             <h1>Save the date <span class="heart">&#10084;&#65039;</span></h1>
-            <p>Sim, mais um dia 14 ehehe</p>
+            <p>Sim, mais um dia 14</p>
         </div>
         <div class="content-wrapper">
             <div class="poem-column">
